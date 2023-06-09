@@ -43,4 +43,7 @@ Once the dataset is ready and prepared. The second part of the project is to sel
 9. Now the Geopandas lybrary is used to viusalize geospace data. It this case to plot the mexican country in the map
 ![Capture5 Mexico](https://github.com/kevin343/Machine-learning-model-for-Underground-Water-Quality./assets/113644566/b9b6d23d-39b4-4363-9fc7-6bce831d3b3a)
 
+A chart is presented with the 5 clusters and the quality of water showing the clusters that have better quality of water.
+![Capture6 chart with cluster and water](https://github.com/kevin343/Machine-learning-model-for-Underground-Water-Quality./assets/113644566/3806135c-276f-4143-9f8f-05464300529c)
 
+# Machine-learning-model-for-Underground-Water-Quality

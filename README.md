@@ -45,5 +45,15 @@ Once the dataset is ready and prepared. The second part of the project is to sel
 
 A chart is presented with the 5 clusters and the quality of water showing the clusters that have better quality of water.
 ![Capture6 chart with cluster and water](https://github.com/kevin343/Machine-learning-model-for-Underground-Water-Quality./assets/113644566/3806135c-276f-4143-9f8f-05464300529c)
+*Green means good quality water
+*Yellow meand average quality water 
+* Red meand low quality water
+## Change the label encoding of the semaphore, eg, from ["class 1", "class 2", "class 3"] to [ 1,2,3]
 
-# Machine-learning-model-for-Underground-Water-Quality
+The SEMAFORO feature has the following names that represent the quality of the water. "VERDE","AMARILLO","ROJO".
+
+The label need to be changed to 1, 2 ,3.This is mandatory because for the model to be trained it is necessary to have everything in values.
+To achive this get dummies is used. get dummies is used to change cathegorical variables into binary/dummy variables, that later willbe use for machine learning.
+
+![Capture](https://github.com/kevin343/Machine-learning-model-for-Underground-Water-Quality./assets/113644566/0f213704-82c6-4cc3-a3cc-c9b35fa52be9)
+

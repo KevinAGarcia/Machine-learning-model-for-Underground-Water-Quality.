@@ -48,7 +48,9 @@ A chart is presented with the 5 clusters and the quality of water showing the cl
 *Green means good quality water
 *Yellow meand average quality water 
 * Red meand low quality water
-## Change the label encoding of the semaphore, eg, from ["class 1", "class 2", "class 3"] to [ 1,2,3]
+
+## Second part of the project
+1. Change the label encoding of the semaphore, eg, from ["class 1", "class 2", "class 3"] to [ 1,2,3]
 
 The SEMAFORO feature has the following names that represent the quality of the water. "VERDE","AMARILLO","ROJO".
 
@@ -56,4 +58,22 @@ The label need to be changed to 1, 2 ,3.This is mandatory because for the model 
 To achive this get dummies is used. get dummies is used to change cathegorical variables into binary/dummy variables, that later willbe use for machine learning.
 
 ![Capture](https://github.com/kevin343/Machine-learning-model-for-Underground-Water-Quality./assets/113644566/0f213704-82c6-4cc3-a3cc-c9b35fa52be9)
+
+2. Select the X and Y variables. 
+![Capture2](https://github.com/kevin343/Machine-learning-model-for-Underground-Water-Quality./assets/113644566/e2ed0c21-1dc4-46cf-885b-405245a6c16d)
+
+
+*X: This represents your input features or independent variables.
+*y: This represents your target variable or dependent variable.
+*test_size: This specifies the proportion of the dataset that should be allocated to the testing set. In the given example, the testing set will be 20% of the entire dataset.
+*random_state: This parameter is used to seed the random number generator, which ensures that the data split is reproducible. Setting it to a specific value (in this case, 0) ensures that the same split will be generated if the code is run multiple times.
+After executing the train_test_split function, the dataset will be divided into four separate datasets:
+
+*X_train: This will contain a subset of the input features (X) that will be used for training your model.
+*X_test: This will contain a subset of the input features (X) that will be used for testing the trained model's performance.
+*y_train: This will contain the corresponding subset of target variables (y) for the training data.
+*y_test: This will contain the corresponding subset of target variables (y) for the testing data.
+
+3.  Now a feature importance analysis is required, with the most important features.
+4.  Now with the 
 

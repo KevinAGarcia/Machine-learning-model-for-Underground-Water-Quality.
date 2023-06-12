@@ -75,5 +75,9 @@ After executing the train_test_split function, the dataset will be divided into 
 *y_test: This will contain the corresponding subset of target variables (y) for the testing data.
 
 3.  Now a feature importance analysis is required, with the most important features.
-4.  Now with the 
+4.  Now with the Feature importance with Random Forest classifier. The features presented below represent the 60% of importance to predict the target.
+6.  
+![Capture3 five most predictive features](https://github.com/kevin343/Machine-learning-model-for-Underground-Water-Quality./assets/113644566/e81ea468-4121-4524-9000-0cb2d4466842)
 
+
+7. Matriz de confucion para Random Forest

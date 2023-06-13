@@ -45,8 +45,8 @@ Once the dataset is ready and prepared. The second part of the project is to sel
 
 A chart is presented with the 5 clusters and the quality of water showing the clusters that have better quality of water.
 ![Capture6 chart with cluster and water](https://github.com/kevin343/Machine-learning-model-for-Underground-Water-Quality./assets/113644566/3806135c-276f-4143-9f8f-05464300529c)
-*Green means good quality water
-*Yellow meand average quality water 
+* Green means good quality water
+* Yellow meand average quality water 
 * Red meand low quality water
 
 ## Second part of the project
@@ -63,16 +63,16 @@ To achive this get dummies is used. get dummies is used to change cathegorical v
 ![Capture2](https://github.com/kevin343/Machine-learning-model-for-Underground-Water-Quality./assets/113644566/e2ed0c21-1dc4-46cf-885b-405245a6c16d)
 
 
-*X: This represents your input features or independent variables.
-*y: This represents your target variable or dependent variable.
-*test_size: This specifies the proportion of the dataset that should be allocated to the testing set. In the given example, the testing set will be 20% of the entire dataset.
-*random_state: This parameter is used to seed the random number generator, which ensures that the data split is reproducible. Setting it to a specific value (in this case, 0) ensures that the same split will be generated if the code is run multiple times.
+* X: This represents your input features or independent variables.
+* y: This represents your target variable or dependent variable.
+* test_size: This specifies the proportion of the dataset that should be allocated to the testing set. In the given example, the testing set will be 20% of the entire dataset.
+* random_state: This parameter is used to seed the random number generator, which ensures that the data split is reproducible. Setting it to a specific value (in this case, 0) ensures that the same split will be generated if the code is run multiple times.
 After executing the train_test_split function, the dataset will be divided into four separate datasets:
 
-*X_train: This will contain a subset of the input features (X) that will be used for training your model.
-*X_test: This will contain a subset of the input features (X) that will be used for testing the trained model's performance.
-*y_train: This will contain the corresponding subset of target variables (y) for the training data.
-*y_test: This will contain the corresponding subset of target variables (y) for the testing data.
+* X_train: This will contain a subset of the input features (X) that will be used for training your model.
+* X_test: This will contain a subset of the input features (X) that will be used for testing the trained model's performance.
+* y_train: This will contain the corresponding subset of target variables (y) for the training data.
+* y_test: This will contain the corresponding subset of target variables (y) for the testing data.
 
 3.  Now a feature importance analysis is required, with the most important features.
 4.  The features presented below represent the 60% of importance to predict the target.
@@ -84,7 +84,7 @@ After executing the train_test_split function, the dataset will be divided into 
 6.0.1. Recall, also known as sensitivity or true positive rate, is a performance metric used to evaluate the effectiveness of a classification model. It measures the proportion of actual positive cases that are correctly identified by the model.
  * True Positives (TP): The number of positive cases in the dataset that are correctly predicted as positive by the model.
  * False Negatives (FN): The number of positive cases in the dataset that are incorrectly predicted as negative by the model.
- ** Recall = TP / (TP + FN)
+ * Recall = TP / (TP + FN)
  * A high recall value indicates that the model is effective at capturing positive cases, meaning it has a low rate of false negatives. Conversely, a low recall value suggests that the model is missing a significant number of positive cases and has a high rate of false negatives.
 6.0.2. Random forest is like going to a picnic or not, based on some factors like weather, temperature, and wind speed. Instead of relying on a single person's opinion, you decide to ask multiple people and then make your decision based on the majority. It combines the opinions of multiple decision trees to make more accurate predictions.
  * Each decision tree in a Random Forest is trained on a random subset of the data. For example, if you have 100 data points, each tree may be trained on a different 80% of the data, randomly chosen. This process is known as bootstrapping.

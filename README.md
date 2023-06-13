@@ -80,4 +80,19 @@ After executing the train_test_split function, the dataset will be divided into 
 ![Capture3 five most predictive features](https://github.com/kevin343/Machine-learning-model-for-Underground-Water-Quality./assets/113644566/e81ea468-4121-4524-9000-0cb2d4466842)
 5. Now with the most important features of the dataset, a new smaller dataset is created and it is used to explore the best classifier between Random Forest and decision tree.
 
-6. NOw the precision vs recall for the Random Forest.
+6. Now the precision vs recall for the Random Forest.
+6.0.1 Recall, also known as sensitivity or true positive rate, is a performance metric used to evaluate the effectiveness of a classification model. It measures the proportion of actual positive cases that are correctly identified by the model.
+*True Positives (TP): The number of positive cases in the dataset that are correctly predicted as positive by the model.
+*False Negatives (FN): The number of positive cases in the dataset that are incorrectly predicted as negative by the model.
+**Recall = TP / (TP + FN)
+*A high recall value indicates that the model is effective at capturing positive cases, meaning it has a low rate of false negatives. Conversely, a low recall value suggests that the model is missing a significant number of positive cases and has a high rate of false negatives.
+6.0.2 Random forest is like going to a picnic or not, based on some factors like weather, temperature, and wind speed. Instead of relying on a single person's opinion, you decide to ask multiple people and then make your decision based on the majority. It combines the opinions of multiple decision trees to make more accurate predictions.
+*Each decision tree in a Random Forest is trained on a random subset of the data. For example, if you have 100 data points, each tree may be trained on a different 80% of the data, randomly chosen. This process is known as bootstrapping.
+*Additionally, at each decision point in a tree, instead of considering all the available factors, Random Forest randomly selects a subset of factors. This randomness helps to ensure that different trees focus on different aspects of the data and reduces the correlation between the trees.
+*Once all the trees are trained, when you want to make a prediction for a new data point (e.g., whether to go for a picnic or not), each tree gives its own prediction. In the case of classification, the final prediction is determined by majority voting, where the class with the most votes across all the trees is chosen. In the case of regression, the predictions of all the trees are averaged to obtain the final prediction.
+6.0.3. A decision tree is like a flowchart that asks a series of questions to classify or predict something. In our example, a decision tree may ask questions like "Is the weather sunny?" or "Is the temperature above 25 degrees Celsius?" Based on the answers to these questions, it reaches a final decision.
+*To build the decision tree, the algorithm looks at the data and decides which question is the best to ask at each step. It tries to pick questions that separate the data into more homogeneous groups, so you can make more accurate decisions.
+*However, sometimes decision trees can become too complex and overfit to the training data, which can lead to poor performance on new data.
+*When a model overfits, it essentially memorizes the training data instead of generalizing from it. As a result, it may have high accuracy or low error on the training data, but it fails to perform well on new data because it has not learned the true underlying patterns.
+6.1 In this chart, the decision tree precision vs recall curve can be seen.
+![Capture4 randoforest vs recall](https://github.com/kevin343/Machine-learning-model-for-Underground-Water-Quality./assets/113644566/407d8c79-6d16-4790-a529-e7a82787514a)

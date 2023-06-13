@@ -82,6 +82,8 @@ After executing the train_test_split function, the dataset will be divided into 
 
 6. Now the precision vs recall for the Random Forest.
 6.0.1. Recall, also known as sensitivity or true positive rate, is a performance metric used to evaluate the effectiveness of a classification model. It measures the proportion of actual positive cases that are correctly identified by the model.
+![Capture confusion matrix](https://github.com/kevin343/Machine-learning-model-for-Underground-Water-Quality./assets/113644566/c5a42684-a7b7-47a8-9d77-3e014f1c654d)
+
  * True Positives (TP): The number of positive cases in the dataset that are correctly predicted as positive by the model.
  * False Negatives (FN): The number of positive cases in the dataset that are incorrectly predicted as negative by the model.
  * Recall = TP / (TP + FN)

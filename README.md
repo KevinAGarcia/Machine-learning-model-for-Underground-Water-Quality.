@@ -94,5 +94,30 @@ After executing the train_test_split function, the dataset will be divided into 
  * To build the decision tree, the algorithm looks at the data and decides which question is the best to ask at each step. It tries to pick questions that separate the data into more homogeneous groups, so you can make more accurate decisions.
  * However, sometimes decision trees can become too complex and overfit to the training data, which can lead to poor performance on new data.
  * When a model overfits, it essentially memorizes the training data instead of generalizing from it. As a result, it may have high accuracy or low error on the training data, but it fails to perform well on new data because it has not learned the true underlying patterns.
-6.1. In this chart, the decision tree precision vs recall curve can be seen.
+6.1. In this chart, the Random Fprest precision vs recall curve can be seen.
 ![Capture4 randoforest vs recall](https://github.com/kevin343/Machine-learning-model-for-Underground-Water-Quality./assets/113644566/407d8c79-6d16-4790-a529-e7a82787514a)
+6.2 An here are the cocnfusion matrix for AMARILLO, ROJO AND VERDE
+
+![Capture6matriz confusion random forest](https://github.com/kevin343/Machine-learning-model-for-Underground-Water-Quality./assets/113644566/fc08faf8-6cd1-49ac-9fe2-abee511e25d9)
+![Capture7 matriz de confusion](https://github.com/kevin343/Machine-learning-model-for-Underground-Water-Quality./assets/113644566/b10d7478-94b5-4102-9312-3c5b11cb25d5)
+![Capture8 Matriz de confusion PNG](https://github.com/kevin343/Machine-learning-model-for-Underground-Water-Quality./assets/113644566/ecce3d14-c813-4704-9e1b-819b37ac13ab)
+
+6.3 In this chart, the decision tree precision vs recall curve can be seen.
+![Capture5 decision tree vs recallPNG](https://github.com/kevin343/Machine-learning-model-for-Underground-Water-Quality./assets/113644566/23c4f72c-6719-47f5-a90c-21a95e9b72c0)
+6.4 An here are the cocnfusion matrix for AMARILLO, ROJO AND VERDE
+
+![Capture9amtriz de confusion decision tree](https://github.com/kevin343/Machine-learning-model-for-Underground-Water-Quality./assets/113644566/98772ec7-c33a-48d4-a834-763d670d549b)
+![Capture11 matriz ocnfusion decision tree](https://github.com/kevin343/Machine-learning-model-for-Underground-Water-Quality./assets/113644566/15ab86e6-cb15-40c7-840c-259cbcebcc20)
+![Capture12Matriz de confusion decision tree](https://github.com/kevin343/Machine-learning-model-for-Underground-Water-Quality./assets/113644566/abf77c59-242f-4246-aac6-214360b96a7c)
+6.5 Comparative table of score for the Random Forest  and the decision Tree.
+
+This is for the Random Forest:
+
+![f1 score](https://github.com/kevin343/Machine-learning-model-for-Underground-Water-Quality./assets/113644566/e983a81a-8c15-4e3f-8866-39244e0150b3)
+
+And this is for the decision Tree:
+![f1 score decision tree](https://github.com/kevin343/Machine-learning-model-for-Underground-Water-Quality./assets/113644566/f511ee1d-6194-433f-a574-5d8163d45e43)
+6.6 Conclusion
+
+* For the two classifiers, based on the information provided by the confusion matrices and the recall vs precision charts for both classifiers. Can be concluded that the Random Forest is more precise because it has a higher recall and better precision. with 96%.
+* But respect to the score for any of the classifiers is really high and if the dataset were bigger it would be lower. 
